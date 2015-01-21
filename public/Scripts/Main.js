@@ -258,7 +258,7 @@
         }
     });
     
-    $(".overlay").on('click', function () {
+    $(".overlay,.close-preview").on('click', function () {
         $("body").css("overflow", "scroll");
         $(".overlay").fadeOut(200);
         $(".preview-canvas").fadeOut(200);
